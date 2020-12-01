@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family:'Quicksand', sans-serif;;
     font-size: 18px;
     text-align: justify;
     line-height: 150%;
@@ -11,6 +11,7 @@ body {
   
   header {
     background: #333;
+    font-family: 'Cinzel', serif;
   }
   
   h1 {
@@ -18,12 +19,13 @@ body {
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
-    color: #eee;
+    color: rgb(158, 60, 158);
     text-align: center;
   }
   
   h2 {
     font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
   }
   
   a {
