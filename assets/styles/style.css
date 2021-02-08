@@ -1,0 +1,166 @@
+ /* https://colorhunt.co/palette/202266 */
+
+/* global to project */
+body {
+    padding: 0;
+    margin-bottom: 70px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    font-family:'Poppins', sans-serif;
+    background-color: #e4eddb;;
+}
+h1 {
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #144d53;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 0;
+}
+a {
+    color: #d21034;
+} 
+p {
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #307672;
+}   
+.container {
+    width: 85%;
+    padding: 15px;
+    padding-bottom: 60px;
+    position: relative; top: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.navPad {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#navbarNavAltMarkup a {
+    color:#e4eddb;
+}
+
+#logo-image {
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 60px;
+    background-color: #e4eddb;
+}
+.sigBox {
+    float: left;
+    padding: 5px;
+}
+#sig {
+    width: 80px;
+    height: 30px;
+}
+.social.mx.auto {
+    display: flex;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.fab {
+   color: slategray;
+   padding: 10px;
+   margin-top: 10px;
+}
+
+/* index/home page classes*/
+#about-alex {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    max-height: 100vh;
+    
+}
+#about-alex h1 {
+    font-size: 3.5rem;
+}
+#about-alex p {
+    padding-top: 10px;
+}
+.aboutImg {
+    width: 340px;
+    height: 340px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+
+/* portfolio page classes */
+.projImg {
+   
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.display-4 {
+    text-align: center;
+}
+.lead {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.pastProjects {
+    width: 85%;
+    padding-top: 15px;
+}
+
+#containerPort {
+    padding: 15px;
+}
+
+#containerCard {
+    padding-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* contact page classes/id */
+
+.container-contact {
+    width:  100%;
+    padding: 15px;
+    display: flex;
+}
+#formLogin {
+    display: table-cell;
+    position: relative; top: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin: auto;
+    background-color:rgba(253, 242, 244, 0.979);
+ }

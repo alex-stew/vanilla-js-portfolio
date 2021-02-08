@@ -1,62 +1,98 @@
 <!DOCTYPE html>
-<html lang=en>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Alex Stewart Student Bio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Stewart</title>
 
+    <link rel="shortcut icon" href="./assets/misc/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/761f2d282b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@900&family=Quicksand:wght@500&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@100;400;800&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet-reset" href="../alex-stew.github.io/reset.css" />
-    <link rel="stylesheet" type=text/css href="../alex-stew.github.io/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
 </head>
 
 <body>
     <header>
-        <h1>Student Bio</h1>
+        <!-- navigation direct target links used -->
+        <nav class="navbar navPad navbar-expand-lg navbar-light fixed-top bg-light">
+            <div class="container-fluid" style="background-color: #1a3c40;">
+                <a class="navbar-brand" href="./index.html"> <img id="logo-image" src="./assets/misc/edenLogo.v4.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
-
+    <!-- index ~ about alex and eden wd content goes here -->
     <div class="container">
-
-        <section id="main-bio">
-
-            <h2>Alex Stewart <i class="fas fa-meteor"></i> </h2>
-
-            <img id="bio-image" src="https://placehold.it/200x200" alt="Alex" />
-
-            <p>I recently decided to make a career change after working in the finance industry for half a decade. A
-                big reason
-                for my change was due to the work-life balance being difficult to get right for me. I have also
-                served in the Army
-                as a Command Systems Operator in the Artillery Core, studied at the Adelaide Conservatory of Music
-                and half finished
-                a Bachelors degree in Commerce (Corporate Finance) and Science (Geology) - always happy to trade
-                stories over a
-                beer.</p>
-            <p>After some soul searching and introspective career defining during COVID19, I decided to make the
-                jump - and learn to become a programmer.</p>
+        <section id="about-alex">
+            <div class="row">
+                <div class="col">
+                    <h1>HI, I'M ALEX. THANKS FOR STOPPING BY :) </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img class="aboutImg img-fluid" src="./assets/images/alexFlorence.jpg" alt="Alex" />
+                </div>
+                <div class="col-lg-4">
+                    <img class="aboutImg img-fluid" src="./assets/images/alexKeys.jpg"
+                        alt="Alex playing keys" />
+                </div>
+                <div class="col-lg-4">
+                    <img class="aboutImg img-fluid" src="./assets/images/ourCats.jpg" alt="Our 2 cats looking off into the sunset" />
+                </div>
+            </div>
+            <div class="row">
+                <p>I recently decided to make a career change after working in the finance industry for half a
+                    decade. A
+                    big reason
+                    for my change was due to the work-life balance being difficult to get right for me. I have also
+                    served in the Army
+                    as a Command Systems Operator in the Artillery Core, studied at the Adelaide Conservatory of
+                    Music
+                    and half finished
+                    a Bachelors degree in Commerce (Corporate Finance) and Science (Geology) - always happy to trade
+                    stories over a
+                    beer. After some soul searching and introspective career defining during COVID19, I decided to
+                    make the
+                    jump - and learn to become a programmer.</p>
+            </div>
         </section>
-
-        <section id="contact-info">
-
-            <h2>Contact Info</h2>
-            <ul>
-                <li><strong>Email:</strong> <a href="#">alexanderstewart92@gmail.com</a>
-                </li>
-                <li><strong>GitHub:</strong> <a href="#">Alex Stewart</a></li>
-                <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-            </ul>
-        </section>
-
     </div>
 
+    <!-- footer -->
+    <footer class="footer">
+        <div class="row">
+            <div class="col d-flex flex-row">
+                <span class="sigBox"><img id="sig" src="./assets/misc/edenSig.v5.png" alt="signature"></span>
+                <div class="social mx-auto">
+                    <a href="https://www.linkedin.com/in/alex-stewart-3a2937a9/"><i
+                            class="fab fa-linkedin fa-2x"></i></a><a href="https://github.com/alex-stew"><i
+                            class="fab fa-github-square fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
